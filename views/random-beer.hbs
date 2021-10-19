@@ -1,0 +1,10 @@
+<ul>
+  {{#each randomBeer}}
+    <img src='{{image_url}}' id='random-beer' />
+    <li class='random-beer-details'>{{name}}</li>
+    <li class='random-beer-details'>{{tagline}}</li>
+    <li class='random-beer-details'>{{description}}</li>
+    <li class='random-beer-details'>{{foodPairing}}</li>
+    <li class='random-beer-details'>{{brewerTips}}</li>
+  {{/each}}
+</ul>

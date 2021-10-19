@@ -1,7 +1,33 @@
-/*
+/* 
 white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
-*/
+ */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#beer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#beer,
+#random-beer {
+  width: 50px;
+}
+
+.random-beer-details,
+.list-all-beers {
+  list-style-type: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
